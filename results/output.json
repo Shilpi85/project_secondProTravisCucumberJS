@@ -12,7 +12,7 @@
             "keyword": "Before ",
             "result": {
               "status": "passed",
-              "duration": 332816
+              "duration": 349617
             },
             "hidden": true,
             "match": {
@@ -25,7 +25,7 @@
             "name": "I open \"https://juliemr.github.io/protractor-demo/\"",
             "result": {
               "status": "passed",
-              "duration": 664513823
+              "duration": 1756337524
             },
             "line": 5,
             "match": {
@@ -38,7 +38,7 @@
             "name": "I want to do \"5\" \"-\" \"2\"",
             "result": {
               "status": "passed",
-              "duration": 265842064
+              "duration": 359371987
             },
             "line": 6,
             "match": {
@@ -51,7 +51,7 @@
             "name": "result of operation should equal \"3\"",
             "result": {
               "status": "passed",
-              "duration": 5062230966
+              "duration": 5062192346
             },
             "line": 7,
             "match": {
@@ -63,7 +63,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 149186
+              "duration": 130870
             },
             "hidden": true,
             "match": {
@@ -85,7 +85,7 @@
             "keyword": "Before ",
             "result": {
               "status": "passed",
-              "duration": 85324
+              "duration": 156204
             },
             "hidden": true,
             "match": {
@@ -98,7 +98,7 @@
             "name": "I open \"https://juliemr.github.io/protractor-demo/\"",
             "result": {
               "status": "passed",
-              "duration": 182664787
+              "duration": 184768626
             },
             "line": 10,
             "match": {
@@ -111,7 +111,7 @@
             "name": "I want to do \"1\" \"+\" \"4\"",
             "result": {
               "status": "passed",
-              "duration": 217677705
+              "duration": 223158060
             },
             "line": 11,
             "match": {
@@ -124,7 +124,7 @@
             "name": "result of operation should equal \"58\"",
             "result": {
               "status": "failed",
-              "duration": 5068621850,
+              "duration": 5069850284,
               "error_message": "AssertionError: expected '5' to equal '58'\n    at /Users/singhs10/project_secondProTravisCucumberJS/features/step_definitions/actionwords.js:21:30\n    at /Users/singhs10/.nvm/versions/node/v5.3.0/lib/node_modules/protractor/lib/element.js:665:16\n    at [object Object].promise.Promise.goog.defineClass.invokeCallback_ (/Users/singhs10/.nvm/versions/node/v5.3.0/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:1337:14)\n    at [object Object].promise.ControlFlow.goog.defineClass.goog.defineClass.abort_.error.executeNext_.execute_ (/Users/singhs10/.nvm/versions/node/v5.3.0/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:2776:14)\n    at [object Object].promise.ControlFlow.goog.defineClass.goog.defineClass.abort_.error.executeNext_ (/Users/singhs10/.nvm/versions/node/v5.3.0/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:2758:21)\n    at goog.async.run.processWorkQueue (/Users/singhs10/.nvm/versions/node/v5.3.0/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/goog/async/run.js:124:15)\n    at process._tickCallback (node.js:382:9)"
             },
             "line": 12,
@@ -137,7 +137,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 85424
+              "duration": 199402
             },
             "hidden": true,
             "match": {

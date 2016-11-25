@@ -25,9 +25,12 @@
   "devDependencies": {
     "chai": "*",
     "chai-as-promised": "*",
+    "cucumber": "^1.2.2",
     "cucumberjs-junitxml": "^1.0.0",
     "jasmine-reporters": "^2.2.0",
     "jasmine-spec-reporter": "^2.7.0",
+    "protractor": "3.3.0",
+    "protractor-cucumber": "^0.1.8",
     "protractor-cucumber-framework": "^0.6.0"
   }
 }

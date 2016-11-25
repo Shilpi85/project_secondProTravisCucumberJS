@@ -1,0 +1,159 @@
+[
+  {
+    "elements": [
+      {
+        "id": "firstprotractortest;subtraction",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Subtraction",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 332816
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/singhs10/project_secondProTravisCucumberJS/features/step_definitions/step_definitions.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open \"https://juliemr.github.io/protractor-demo/\"",
+            "result": {
+              "status": "passed",
+              "duration": 664513823
+            },
+            "line": 5,
+            "match": {
+              "location": "/Users/singhs10/project_secondProTravisCucumberJS/features/step_definitions/step_definitions.js:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I want to do \"5\" \"-\" \"2\"",
+            "result": {
+              "status": "passed",
+              "duration": 265842064
+            },
+            "line": 6,
+            "match": {
+              "location": "/Users/singhs10/project_secondProTravisCucumberJS/features/step_definitions/step_definitions.js:23"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "result of operation should equal \"3\"",
+            "result": {
+              "status": "passed",
+              "duration": 5062230966
+            },
+            "line": 7,
+            "match": {
+              "location": "/Users/singhs10/project_secondProTravisCucumberJS/features/step_definitions/step_definitions.js:30"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 149186
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/singhs10/project_secondProTravisCucumberJS/features/step_definitions/step_definitions.js:11"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "firstprotractortest;newadditiontest",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "newAdditionTest",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 85324
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/singhs10/project_secondProTravisCucumberJS/features/step_definitions/step_definitions.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open \"https://juliemr.github.io/protractor-demo/\"",
+            "result": {
+              "status": "passed",
+              "duration": 182664787
+            },
+            "line": 10,
+            "match": {
+              "location": "/Users/singhs10/project_secondProTravisCucumberJS/features/step_definitions/step_definitions.js:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I want to do \"1\" \"+\" \"4\"",
+            "result": {
+              "status": "passed",
+              "duration": 217677705
+            },
+            "line": 11,
+            "match": {
+              "location": "/Users/singhs10/project_secondProTravisCucumberJS/features/step_definitions/step_definitions.js:23"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "result of operation should equal \"58\"",
+            "result": {
+              "status": "failed",
+              "duration": 5068621850,
+              "error_message": "AssertionError: expected '5' to equal '58'\n    at /Users/singhs10/project_secondProTravisCucumberJS/features/step_definitions/actionwords.js:21:30\n    at /Users/singhs10/.nvm/versions/node/v5.3.0/lib/node_modules/protractor/lib/element.js:665:16\n    at [object Object].promise.Promise.goog.defineClass.invokeCallback_ (/Users/singhs10/.nvm/versions/node/v5.3.0/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:1337:14)\n    at [object Object].promise.ControlFlow.goog.defineClass.goog.defineClass.abort_.error.executeNext_.execute_ (/Users/singhs10/.nvm/versions/node/v5.3.0/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:2776:14)\n    at [object Object].promise.ControlFlow.goog.defineClass.goog.defineClass.abort_.error.executeNext_ (/Users/singhs10/.nvm/versions/node/v5.3.0/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:2758:21)\n    at goog.async.run.processWorkQueue (/Users/singhs10/.nvm/versions/node/v5.3.0/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/goog/async/run.js:124:15)\n    at process._tickCallback (node.js:382:9)"
+            },
+            "line": 12,
+            "match": {
+              "location": "/Users/singhs10/project_secondProTravisCucumberJS/features/step_definitions/step_definitions.js:30"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 85424
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/singhs10/project_secondProTravisCucumberJS/features/step_definitions/step_definitions.js:11"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "firstprotractortest",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "firstProtractorTest",
+    "tags": [],
+    "uri": "/Users/singhs10/project_secondProTravisCucumberJS/features/firstProtractorTest.feature"
+  }
+]

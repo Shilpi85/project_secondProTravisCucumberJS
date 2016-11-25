@@ -1,0 +1,158 @@
+[
+  {
+    "elements": [
+      {
+        "id": "firstprotractortest;subtraction",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Subtraction",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 347075
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/singhs10/project_secondProTravisCucumberJS/features/step_definitions/step_definitions.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open \"https://juliemr.github.io/protractor-demo/\"",
+            "result": {
+              "status": "passed",
+              "duration": 666166047
+            },
+            "line": 5,
+            "match": {
+              "location": "/Users/singhs10/project_secondProTravisCucumberJS/features/step_definitions/step_definitions.js:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I want to do \"5\" \"-\" \"2\"",
+            "result": {
+              "status": "passed",
+              "duration": 268094310
+            },
+            "line": 6,
+            "match": {
+              "location": "/Users/singhs10/project_secondProTravisCucumberJS/features/step_definitions/step_definitions.js:23"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "result of operation should equal \"3\"",
+            "result": {
+              "status": "passed",
+              "duration": 5059978621
+            },
+            "line": 7,
+            "match": {
+              "location": "/Users/singhs10/project_secondProTravisCucumberJS/features/step_definitions/step_definitions.js:30"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 154466
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/singhs10/project_secondProTravisCucumberJS/features/step_definitions/step_definitions.js:11"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "firstprotractortest;newadditiontest",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "newAdditionTest",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 101500
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/singhs10/project_secondProTravisCucumberJS/features/step_definitions/step_definitions.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open \"https://juliemr.github.io/protractor-demo/\"",
+            "result": {
+              "status": "passed",
+              "duration": 176853805
+            },
+            "line": 10,
+            "match": {
+              "location": "/Users/singhs10/project_secondProTravisCucumberJS/features/step_definitions/step_definitions.js:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I want to do \"1\" \"+\" \"4\"",
+            "result": {
+              "status": "passed",
+              "duration": 225020871
+            },
+            "line": 11,
+            "match": {
+              "location": "/Users/singhs10/project_secondProTravisCucumberJS/features/step_definitions/step_definitions.js:23"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "result of operation should equal \"5\"",
+            "result": {
+              "status": "passed",
+              "duration": 5066221647
+            },
+            "line": 12,
+            "match": {
+              "location": "/Users/singhs10/project_secondProTravisCucumberJS/features/step_definitions/step_definitions.js:30"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 5685548
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/singhs10/project_secondProTravisCucumberJS/features/step_definitions/step_definitions.js:11"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "firstprotractortest",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "firstProtractorTest",
+    "tags": [],
+    "uri": "/Users/singhs10/project_secondProTravisCucumberJS/features/firstProtractorTest.feature"
+  }
+]

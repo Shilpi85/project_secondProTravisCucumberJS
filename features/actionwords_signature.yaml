@@ -1,0 +1,26 @@
+---
+- name: I open "p1"
+  uid: e00f82a3-f3b8-49ee-a25b-7bfe1df83bbd
+  parameters:
+  - name: p1
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I want to do "p1" "p2" "p3"
+  uid: 44487f23-50aa-439d-aa7b-2650ebcf357c
+  parameters:
+  - name: p1
+  - name: p2
+  - name: p3
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: result of operation should equal "p1"
+  uid: 0572d02b-4efb-4059-b853-c3790f0a356d
+  parameters:
+  - name: p1
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: test step
+  uid: 236396e5-cdf0-447a-a353-19cff993673d
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: test
+  uid: d9f39f4e-116d-47d6-a96f-abf6f53c0e6c
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e

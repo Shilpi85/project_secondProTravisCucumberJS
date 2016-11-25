@@ -1,0 +1,26 @@
+<testsuites>
+    <testsuite name="firstprotractortest;subtraction" tests="5" failures="0" errors="0" skipped="0" timestamp="Fri, 25 Nov 2016 21:40:13 GMT" time="6.827240590000001">
+        <testcase name="Before undefined" classname="firstprotractortest;subtraction" time="0.000278102">
+        </testcase>
+        <testcase name="Given I open &quot;https://juliemr.github.io/protractor-demo/&quot;" classname="firstprotractortest;subtraction" time="1.492266965">
+        </testcase>
+        <testcase name="When I want to do &quot;5&quot; &quot;-&quot; &quot;2&quot;" classname="firstprotractortest;subtraction" time="0.272392766">
+        </testcase>
+        <testcase name="Then result of operation should equal &quot;3&quot;" classname="firstprotractortest;subtraction" time="5.062171247">
+        </testcase>
+        <testcase name="After undefined" classname="firstprotractortest;subtraction" time="0.00013151">
+        </testcase>
+    </testsuite>
+    <testsuite name="firstprotractortest;newadditiontest" tests="5" failures="0" errors="0" skipped="0" timestamp="Fri, 25 Nov 2016 21:40:13 GMT" time="5.475773891999999">
+        <testcase name="Before undefined" classname="firstprotractortest;newadditiontest" time="0.000084103">
+        </testcase>
+        <testcase name="Given I open &quot;https://juliemr.github.io/protractor-demo/&quot;" classname="firstprotractortest;newadditiontest" time="0.187267424">
+        </testcase>
+        <testcase name="When I want to do &quot;1&quot; &quot;+&quot; &quot;4&quot;" classname="firstprotractortest;newadditiontest" time="0.227418526">
+        </testcase>
+        <testcase name="Then result of operation should equal &quot;5&quot;" classname="firstprotractortest;newadditiontest" time="5.060927377">
+        </testcase>
+        <testcase name="After undefined" classname="firstprotractortest;newadditiontest" time="0.000076462">
+        </testcase>
+    </testsuite>
+</testsuites>

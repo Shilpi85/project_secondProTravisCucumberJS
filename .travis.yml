@@ -84,7 +84,7 @@ after_failure:
     #Run P3 cucumber tests
 
 after_script:
-  #- cat results/output.json | ./node_modules/.bin/cucumber-junit > results/cucumber_report.xml
+  - cat results/output.json | ./node_modules/.bin/cucumber-junit > results/cucumber_report.xml
 
   #- curl -X POST -F file=@<path to your result file> https://hiptest.net/import_test_reports/204871700476243602928025924115078199192677315950726035998/52665/junit
   - curl -X POST -F file=@results/cucumber_report.xml https://hiptest.net/import_test_reports/204871700476243602928025924115078199192677315950726035998/53308/junit

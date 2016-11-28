@@ -1,34 +1,59 @@
 <testsuites>
-    <testsuite name="firstprotractortest;subtraction" tests="5" failures="0" errors="0" skipped="0" timestamp="Fri, 25 Nov 2016 21:42:45 GMT" time="5.993068855000001">
-        <testcase name="Before undefined" classname="firstprotractortest;subtraction" time="0.000332816">
+    <testsuite name="clia-labs-page;user-can-access-information-about-the-uploaded-no-template-control-report." tests="17" failures="1" errors="0" skipped="0" timestamp="Mon, 28 Nov 2016 15:36:10 GMT" time="13.974451207000001">
+        <testcase name="Given I am a logged in user" classname="clia-labs-page;user-can-access-information-about-the-uploaded-no-template-control-report." time="5.141036715">
         </testcase>
-        <testcase name="Given I open &quot;https://juliemr.github.io/protractor-demo/&quot;" classname="firstprotractortest;subtraction" time="0.664513823">
+        <testcase name="When I navigate to the Clia Labs page" classname="clia-labs-page;user-can-access-information-about-the-uploaded-no-template-control-report." time="0.705820562">
         </testcase>
-        <testcase name="When I want to do &quot;5&quot; &quot;-&quot; &quot;2&quot;" classname="firstprotractortest;subtraction" time="0.265842064">
+        <testcase name="When I click on the &quot;MoCha&quot; section" classname="clia-labs-page;user-can-access-information-about-the-uploaded-no-template-control-report." time="1.015056978">
         </testcase>
-        <testcase name="Then result of operation should equal &quot;3&quot;" classname="firstprotractortest;subtraction" time="5.062230966">
+        <testcase name="And I click on &quot;No Template Control&quot; under &quot;MoCha&quot;" classname="clia-labs-page;user-can-access-information-about-the-uploaded-no-template-control-report." time="3.845218268">
         </testcase>
-        <testcase name="After undefined" classname="firstprotractortest;subtraction" time="0.000149186">
+        <testcase name="And I enter &quot;SC_YQ111&quot; in the search field on &quot;No Template Control&quot; under &quot;MoCha&quot;" classname="clia-labs-page;user-can-access-information-about-the-uploaded-no-template-control-report." time="0.142185953">
         </testcase>
-    </testsuite>
-    <testsuite name="firstprotractortest;newadditiontest" tests="5" failures="1" errors="0" skipped="0" timestamp="Fri, 25 Nov 2016 21:42:45 GMT" time="5.46913509">
-        <testcase name="Before undefined" classname="firstprotractortest;newadditiontest" time="0.000085324">
+        <testcase name="And I collect information about the sample variant report" classname="clia-labs-page;user-can-access-information-about-the-uploaded-no-template-control-report." time="0.040974797">
         </testcase>
-        <testcase name="Given I open &quot;https://juliemr.github.io/protractor-demo/&quot;" classname="firstprotractortest;newadditiontest" time="0.182664787">
+        <testcase name="And I click on the sample control link" classname="clia-labs-page;user-can-access-information-about-the-uploaded-no-template-control-report." time="1.085562543">
         </testcase>
-        <testcase name="When I want to do &quot;1&quot; &quot;+&quot; &quot;4&quot;" classname="firstprotractortest;newadditiontest" time="0.217677705">
+        <testcase name="Then I verify that I am on the sample control page for that molecularId" classname="clia-labs-page;user-can-access-information-about-the-uploaded-no-template-control-report." time="0.016893605">
         </testcase>
-        <testcase name="Then result of operation should equal &quot;58&quot;" classname="firstprotractortest;newadditiontest" time="5.06862185">
-            <failure message="AssertionError: expected &apos;5&apos; to equal &apos;58&apos;">AssertionError: expected &apos;5&apos; to equal &apos;58&apos;
-    at /Users/singhs10/project_secondProTravisCucumberJS/features/step_definitions/actionwords.js:21:30
-    at /Users/singhs10/.nvm/versions/node/v5.3.0/lib/node_modules/protractor/lib/element.js:665:16
-    at [object Object].promise.Promise.goog.defineClass.invokeCallback_ (/Users/singhs10/.nvm/versions/node/v5.3.0/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:1337:14)
-    at [object Object].promise.ControlFlow.goog.defineClass.goog.defineClass.abort_.error.executeNext_.execute_ (/Users/singhs10/.nvm/versions/node/v5.3.0/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:2776:14)
-    at [object Object].promise.ControlFlow.goog.defineClass.goog.defineClass.abort_.error.executeNext_ (/Users/singhs10/.nvm/versions/node/v5.3.0/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:2758:21)
-    at goog.async.run.processWorkQueue (/Users/singhs10/.nvm/versions/node/v5.3.0/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/goog/async/run.js:124:15)
-    at process._tickCallback (node.js:382:9)</failure>
+        <testcase name="And I verify all the values on the left hand side section under &quot;No Template Control&quot;" classname="clia-labs-page;user-can-access-information-about-the-uploaded-no-template-control-report." time="0.130500618">
         </testcase>
-        <testcase name="After undefined" classname="firstprotractortest;newadditiontest" time="0.000085424">
+        <testcase name="And I verify all the values on the right hand side section under &quot;No Template Control&quot;" classname="clia-labs-page;user-can-access-information-about-the-uploaded-no-template-control-report." time="0.070244611">
+        </testcase>
+        <testcase name="And I verify all the headings on the &quot;left&quot; hand side section under &quot;No Template Control&quot;" classname="clia-labs-page;user-can-access-information-about-the-uploaded-no-template-control-report." time="0.220303846">
+        </testcase>
+        <testcase name="And I verify all the headings on the &quot;right&quot; hand side section under &quot;No Template Control&quot;" classname="clia-labs-page;user-can-access-information-about-the-uploaded-no-template-control-report." time="0.121293864">
+        </testcase>
+        <testcase name="And I verify the presence of SNVs, CNVs and Gene Fusions Table" classname="clia-labs-page;user-can-access-information-about-the-uploaded-no-template-control-report." time="0.07807376">
+        </testcase>
+        <testcase name="And I verify the valid Ids are links in the SNVs/MNVs/Indels table under &quot;No Template Control&quot;" classname="clia-labs-page;user-can-access-information-about-the-uploaded-no-template-control-report." time="0.802590764">
+        </testcase>
+        <testcase name="And I verify the valid Ids are links in the Gene Fusions table under &quot;No Template Control&quot;" classname="clia-labs-page;user-can-access-information-about-the-uploaded-no-template-control-report." time="0.341849318">
+        </testcase>
+        <testcase name="And I verify the valid Ids are links in the Copy Number Variants table under &quot;No Template Control&quot;" classname="clia-labs-page;user-can-access-information-about-the-uploaded-no-template-control-report." time="0.067540188">
+            <failure message="NoSuchElementError: Index out of bound. Trying to access element at index: 0, but there are only 0 elements that match locator By(css selector, a)">NoSuchElementError: Index out of bound. Trying to access element at index: 0, but there are only 0 elements that match locator By(css selector, a)
+    at WebDriverError (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/error.js:26:26)
+    at NoSuchElementError (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/error.js:229:26)
+    at /usr/local/lib/node_modules/protractor/built/element.js:248:27
+    at Promise.invokeCallback_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1329:14)
+    at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2790:14)
+    at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2773:21)
+    at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2652:27
+    at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:639:7
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+Error
+    at ElementArrayFinder.applyAction_ (/usr/local/lib/node_modules/protractor/built/element.js:371:27)
+    at ElementArrayFinder._this.(anonymous function) [as getAttribute] (/usr/local/lib/node_modules/protractor/built/element.js:83:30)
+    at ElementFinder._this.(anonymous function) [as getAttribute] (/usr/local/lib/node_modules/protractor/built/element.js:685:22)
+    at /Users/mohamedr2/workspace/nci-uMatch-bddtests/nci-match-ui-bddtests/support/utilities.js:134:53
+    at /usr/local/lib/node_modules/protractor/built/element.js:652:28
+    at Promise.invokeCallback_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1329:14)
+    at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2790:14)
+    at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2773:21)
+    at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2652:27
+    at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:639:7</failure>
+        </testcase>
+        <testcase name="After undefined" classname="clia-labs-page;user-can-access-information-about-the-uploaded-no-template-control-report." time="0.149304817">
         </testcase>
     </testsuite>
 </testsuites>
